@@ -1,2 +1,3 @@
 # simple-website
-here is simple website using html and css
+here is simple navbar website using html and css
+it has some hover animations 
