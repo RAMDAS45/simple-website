@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: poppins;
+    min-height: 100vh;
+    background: url('images/galactic-night.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    font-family: poppins;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
+    font-family: poppins;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list li:hover{
+    background-color: white;
+    color: orangered;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.containt{
+    font-size: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    cursor: pointer;
+}
+
+h4{
+    backdrop-filter: blur(5px);
+}
+
+h4::selection{
+    color: orangered;
+    background-color: white;
+}
+
+.logo::selection{
+    color: orangered;
+    background-color: white;
+}
+
+
